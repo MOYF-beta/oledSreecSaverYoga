@@ -1,9 +1,12 @@
-# 使用cx_freeze打包
+# 请使用cx_freeze或者nuitka打包
 
+```bash
 pip install cx_freeze
+cxfreeze-quickstart
+```
 
 它比pyinstaller好用多了
 
-https://coderslegacy.com/python-cx_freeze-tutorial/
+[cx_freeze打包教程](https://coderslegacy.com/python-cx_freeze-tutorial/)
 
-https://coderslegacy.com/python/nuitka-tutorial/
+[nuitka打包教程](https://coderslegacy.com/python/nuitka-tutorial/)
