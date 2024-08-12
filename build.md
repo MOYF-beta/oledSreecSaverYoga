@@ -3,6 +3,8 @@
 ```bash
 pip install cx_freeze
 cxfreeze-quickstart
+
+python setup.py build
 ```
 
 它比pyinstaller好用多了

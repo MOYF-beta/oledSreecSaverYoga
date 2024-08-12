@@ -4,14 +4,14 @@ from cx_Freeze import setup, Executable
 # fine tuning.
 build_options = {'packages': [], 'excludes': []}
 
-base = 'gui'
+base = 'Win32GUI'
 
 executables = [
-    Executable('screenSaver_dual.py', base=base, target_name = 'screenSaver_dual.exe')
+    Executable('screenSaver_dual.py', base=base, target_name = 'oledScreenSaver')
 ]
 
-setup(name='screenSaver_dual',
-      version = '1.0',
-      description = 'oled screen saver',
+setup(name='oledScreenSaver',
+      version = '1.1',
+      description = 'oledScreenSaver for yoga book 9i',
       options = {'build_exe': build_options},
       executables = executables)
